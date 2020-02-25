@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35172a8-d9e2-4818-816b-c67ed02bcabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/In/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/count/Count.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/count/Count.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="e35172a8-d9e2-4818-816b-c67ed02bcabe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,11 +76,25 @@
       <workItem from="1582646957342" duration="197000" />
       <workItem from="1582647263359" duration="55000" />
       <workItem from="1582647542808" duration="607000" />
+      <workItem from="1582648829341" duration="403000" />
     </task>
+    <task id="LOCAL-00001" summary="red">
+      <created>1582649129584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582649129584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="how" />
+    <MESSAGE value="red" />
+    <option name="LAST_COMMIT_MESSAGE" value="red" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582219177980">
@@ -102,14 +105,14 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="458" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.827@0.23.1440.827" timestamp="1582545141154" />
-    <state x="287" y="52" key="CommitChangelistDialog2" timestamp="1582649046167">
+    <state x="287" y="52" key="CommitChangelistDialog2" timestamp="1582649246439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="287" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582649046167" />
-    <state x="591" y="350" key="Github.ShareDialog" timestamp="1582647822776">
+    <state x="287" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582649246439" />
+    <state x="591" y="350" key="Github.ShareDialog" timestamp="1582649171906">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="591" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1582647822776" />
+    <state x="591" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1582649171906" />
     <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1582564067320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

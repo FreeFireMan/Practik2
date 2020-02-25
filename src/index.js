@@ -10,6 +10,10 @@ ReactDOM.render(<App msg="hihihi"  msg2="hello world2" funk={()=>{
 }
 
 
+
+
+
+
 }/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
