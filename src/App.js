@@ -5,8 +5,6 @@ import Count from "./components/count/Count";
 import Button from "./components/Button/Button";
 import Input from "./components/In/Input";
 
-
-
  export default class App extends React.Component{
 
      constructor(props) {
@@ -28,14 +26,11 @@ import Input from "./components/In/Input";
 
 
 
-
-
-
-
-
      plusMinus= (i)=>{
           this.setState({
+           
               count: + (this.state.count +i)>0 ? this.state.count+ +i:this.state.count+0
+           
           });
       };
 
