@@ -1,20 +1,17 @@
-// import React from "react";
-//
-// function Input(props) {
+import React from 'react';
 
 
-   // let  handelInput =()=>{
-   //     console.log('!')
-   // }
+
+function Input(props) {
+
+    let inputValue=(event)=>{
+        props.inputOnChange(event)
+    };
 
 
-//     return(
-//         <div>
-//         <input type="text" onChange={ this.handelInput} />
-//
-//         </div>
-//     )
-//
-// };
-//
-// export default Input
+    return (
+        <input type="Number" onChange={inputValue}/>
+    );
+}
+
+export default Input;

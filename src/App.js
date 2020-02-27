@@ -13,17 +13,15 @@ import Input from "./components/In/Input";
          super(props)
          console.log('construktor')
 
-        // this.state={
-        //      count : 0,
-        //     data: null
-        // }
+         this.addValue = this.addValue.bind(this);
+
      };
 
      //способ 2
      state={
         count: 0 ,
-         data: null
-
+         data: null,
+            input:''
 
      }
 
@@ -35,37 +33,35 @@ import Input from "./components/In/Input";
 
 
 
-     plus1= (event)=>{
-          this.setState({count:this.state.count +1})
+     plusMinus= (i)=>{
+          this.setState({
+              count: + (this.state.count +i)>0 ? this.state.count+ +i:this.state.count+0
+          });
       };
 
-     minus1 = ()=>{
-         this.setState({count:this.state.count -1})
+     inputHandel = (event)=> {
+        this.setState({input:event.target.value})
      };
 
-     handlerPlus100 = ()=>{
-         this.setState({count:this.state.count+100})
+     addValue=()=>{
+         const {count,input} = this.state;
+         this.setState({
+             count: +(count + +input) > 0 ? count + +input : count + 0
+         });
      };
 
-     handlerMinus100 = ()=>{
-         this.setState({count:this.state.count-100})
-     };
-
-     Reset = ()=>{
-         this.setState({count:this.state.count = 0})
-     };
-
-     inputHandel = ()=>{
-         this.setState({count:  + document.getElementById('in').value})
-
-     };
-     ResetValue=()=>{
-         this.setState({count: document.getElementById('in').value=''})
+     Reset=()=>{
+         this.setState({count:0})
 
      }
 
 
 
+
+     // ResetValue=()=>{
+     //     this.setState({count: 0})
+     //
+     // }
 
 
 
@@ -94,15 +90,9 @@ import Input from "./components/In/Input";
          <div>
 
           <Count count={count}/>
-                <input  id="in" type="text" />
-             <Button   children={'Add Value'}  myHandler={this.inputHandel}  />
-             <Button   children={'Reset Value'}  myHandler={this.ResetValue}/>
+          <Input inputOnChange={this.inputHandel}/>
+          <Button myHandler={this.plusMinus} AddVal={this.addValue} resetConter={this.Reset} />
 
-             <Button  myHandler={this.plus1}  children={'+1'} />
-             <Button myHandler={this.minus1} children={'-1'} />
-             <Button myHandler={this.handlerPlus100}  children={'+100'}/>
-             <Button myHandler={this.handlerMinus100} children={'-100'} />
-             <Button myHandler={this.Reset}  children={'Reset'}/>
 
 
          </div>
